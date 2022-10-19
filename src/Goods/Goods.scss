@@ -1,0 +1,29 @@
+.goods-box {
+    background-color: #388697;
+    border: solid 0.003px rgba(0, 0, 0, 0.534);
+    height: 850px;
+    width: 70%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 80px;
+    border: solid 0.003px rgba(0, 0, 0, 0.534);
+    border-top-style: none;
+    div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #08415C;
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
