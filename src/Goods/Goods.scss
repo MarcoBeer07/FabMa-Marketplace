@@ -27,3 +27,41 @@
         cursor: pointer;
     }
 }
+
+.goods-elements-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.goods-elements {
+    position: relative;
+    display: flex;
+    background-color: #08415C;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    min-width: 200px;
+    min-height: 100px;
+    padding: 10px;
+    margin: 10px;
+    button {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: auto;
+        height: 30px;
+        cursor: pointer;
+        background-color: #0c5475;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        margin-top: 20px;
+        border-color: black;
+        border-width: 0.3px;
+        &:hover {
+            background-color: #094c6b;
+        }
+    }
+}

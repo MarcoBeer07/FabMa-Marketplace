@@ -1,19 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Goods.scss';
+import Data from '../Data/data.json';
+import GoodsList from './GoodsList';
 
 
-export const Goods = () => {
+//Goods main container
+export const Goods = (probs) => {
+    const [goods] = useState(Data);
+
+
     return (
-
         <div className='goods-box'>
             <div className='navbar'>
-                <div>Sortiment 1</div>
-                <div>Sortiment 2</div>
-                <div>Sortiment 3</div>
+                <div>Werkzeuge</div>
+                <div>Rohstoffe</div>
+                <div>Zubehör</div>
             </div>
+            <div>
+                <GoodsList goods={goods} />
+            </div>
+
         </div>
     )
 }
 
 
 export default Goods
+

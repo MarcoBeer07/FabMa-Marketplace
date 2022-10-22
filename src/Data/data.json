@@ -1,0 +1,19 @@
+[
+
+    {
+        "name": "Hammer",
+        "price": 5.90,
+        "item_number": "58265"
+    },
+    {
+        "name": "Säge",
+        "price": 13.59,
+        "item_number": "35975"
+    },
+    {
+        "name": "Schraubenzieher",
+        "price": 3.89,
+        "item_number": "96374"
+    }
+
+]

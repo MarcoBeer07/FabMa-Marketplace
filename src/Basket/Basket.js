@@ -2,9 +2,12 @@ import React from 'react'
 import './Basket.scss';
 
 
-export const Basket = () => {
+
+export const Basket = (probs) => {
     return (
-        <div className='basket-box'>Basket</div>
+        <div className='basket-box'>
+            <h1 className='basket-headline'>Warenkorb</h1>
+        </div>
     )
 }
 
