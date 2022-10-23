@@ -6,6 +6,7 @@ import Header from './Header/Header'
 import Goods from './Goods/Goods'
 import Basket from './Basket/Basket'
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>

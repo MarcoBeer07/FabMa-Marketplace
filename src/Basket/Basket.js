@@ -3,13 +3,12 @@ import './Basket.scss';
 import Goods from '../Goods/Goods';
 
 
-export const Basket = (props) => {
 
-    
-    console.log(props.test);
+export const Basket = (probs) => {
     return (
-        <div className='basket-box'>{props.test}</div>
-    
+        <div className='basket-box'>
+            <h1 className='basket-headline'>Warenkorb</h1>
+        </div>
     )
 }
 
