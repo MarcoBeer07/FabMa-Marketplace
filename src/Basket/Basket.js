@@ -1,10 +1,15 @@
 import React from 'react'
 import './Basket.scss';
+import Goods from '../Goods/Goods';
 
 
-export const Basket = () => {
+export const Basket = (props) => {
+
+    
+    console.log(props.test);
     return (
-        <div className='basket-box'>Basket</div>
+        <div className='basket-box'>{props.test}</div>
+    
     )
 }
 
