@@ -1,0 +1,49 @@
+[
+
+    {
+        "name": "Holzbauschrauben",
+        "price": 31.90,
+        "item_number": "0012585"
+    },
+    {
+        "name": "Tellerkopfschrauben",
+        "price": 24.50,
+        "item_number": "0059654"
+    },
+    {
+        "name": "Holzfasadenschrauben",
+        "price": 30.40,
+        "item_number": "0045318"
+    },
+    {
+        "name": "Holzlasur",
+        "price": 16.30,
+        "item_number": "0097235"
+    },
+    {
+        "name": "Holzlasur mit Farbe",
+        "price": 17.60,
+        "item_number": "0023478"
+    },
+    {
+        "name": "Balkenschuh",
+        "price": 3.90,
+        "item_number": "0064821"
+    },
+    {
+        "name": "Stahl Stützfuß",
+        "price": 49.80,
+        "item_number": "0097235"
+    },
+    {
+        "name": "Stützfuß mit Idefix",
+        "price": 65.30,
+        "item_number": "0023478"
+    },
+    {
+        "name": "Winkelverbinder",
+        "price": 2.40,
+        "item_number": "0064821"
+    }
+
+]

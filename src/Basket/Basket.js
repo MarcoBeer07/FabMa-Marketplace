@@ -1,6 +1,6 @@
 import React from 'react'
 import './Basket.scss';
-import Goods from '../Goods/Goods';
+
 
 
 

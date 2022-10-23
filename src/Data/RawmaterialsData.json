@@ -1,0 +1,34 @@
+[
+
+    {
+        "name": "Glattkantbretter",
+        "price": 2.69,
+        "item_number": "0012585"
+    },
+    {
+        "name": "Schalbretter",
+        "price": 6.29,
+        "item_number": "0059654"
+    },
+    {
+        "name": "Möbelbaubretter",
+        "price": 3.78,
+        "item_number": "0045318"
+    },
+    {
+        "name": "Leimholzbretter",
+        "price": 5.99,
+        "item_number": "0097235"
+    },
+    {
+        "name": "Rauspundbretter",
+        "price": 3.26,
+        "item_number": "0023478"
+    },
+    {
+        "name": "Altholzbretter",
+        "price": 1.99,
+        "item_number": "0064821"
+    }
+
+]
