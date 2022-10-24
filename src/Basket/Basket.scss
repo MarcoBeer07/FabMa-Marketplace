@@ -13,3 +13,16 @@
     border-radius: 5px;
     text-align: center;
 }
+
+.basket-elements {
+    position: relative;
+    display: flex;
+    background-color: #08415C;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    min-width: 200px;
+    min-height: 50px;
+    padding: 10px;
+    margin: 10px;
+}

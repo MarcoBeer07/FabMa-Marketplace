@@ -5,22 +5,26 @@ import reportWebVitals from './reportWebVitals';
 import Header from './Header/Header'
 import Goods from './Goods/Goods'
 import Basket from './Basket/Basket'
+import { BrowserRouter } from 'react-router-dom';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div>
     <React.StrictMode>
-      <div className='marketplace'>
+      <BrowserRouter>
+        <div className='marketplace'>
 
-        <Header />
+          <Header />
 
-        <div className='header-basket-box'>
-          <Goods />
-          <Basket />
+          <div className='header-basket-box'>
+            <Goods />
+            <Basket />
+          </div>
+
         </div>
+      </BrowserRouter>
 
-      </div>
     </React.StrictMode>
   </div>
 
